@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #191919;
+    --second-color: #FDD000;
+
+    --primary-background-color: #191919;
+    --second-background-color: #0C0C0C;
+
+
+    --headeline-color: #F9F9F9;
+    --description-color: #8E8E8E;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    /* transform: scale(); */
+
+
+
+
+}
+
