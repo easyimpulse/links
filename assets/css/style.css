@@ -16,14 +16,13 @@ body{
     border-radius: 16px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 --second-color
 .iconEI{
     position: relative;
-    bottom: 55px;
     width: 150px; height: 150px;
-    
 }
 
 .text{
@@ -31,6 +30,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 14px 10px 0px;
 }
 
 .text h2{
@@ -60,6 +60,7 @@ body{
 .divisao{
     width: 48px;
 }
+
 /* ==== Buttons =====*/
 
 .button{
@@ -107,9 +108,9 @@ a{
 }
 
 footer{
-color: #ffffff;
-font-size: 8pt;
-margin: 10px 0px 10px 0px;
+    color: #ffffff;
+    font-size: 8pt;
+    margin: 10px 0px 10px 0px;
 }
 
 /* ==== Responsive ====  */
