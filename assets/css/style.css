@@ -5,14 +5,10 @@ body{
     align-items: center;
     background-color: #080808;
 }
-
 /* ============ Section-Presentation  ============ */
 
-.section-presentation{
-    background-color: rgba(255, 255, 255, 0.16);
-    width: 900px; height: 400px;
+.section-presentation{   
     margin-top: 100px;
-    border: solid 2px var(--second-color);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -21,8 +17,7 @@ body{
 }
 --second-color
 .iconEI{
-    position: relative;
-    width: 150px; height: 150px;
+    
 }
 
 .text{
@@ -30,22 +25,21 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 14px 10px 0px;
+    margin: 44px 10px 0px;
 }
 
-.text h2{
+.text h5{
     color: var(--headeline-color);
-    text-align: center;
-    font-size: 28pt;
-    font-weight: bold;
+    font-size: 20pt;
+    font-weight: bolder;
 }
 
 .text p{
-    color: #8E8E8E;
+    color: #ffffff;
     text-align: center;
     font-size: 12pt;
     font-weight: lighter;
-    margin-top: 18px;
+    margin-top: 4px;
 }
 
 /* ============ Section-Buttons ============ */
@@ -65,7 +59,7 @@ body{
 
 .button{
     background-color: #191919;
-    width: 420px; height: 80px;
+    width: 436px; height: 80px;
     margin: 0px 0px 44px 0px;
     border-radius: 10px;
     display: flex;
@@ -74,7 +68,7 @@ body{
 }
 
 .button:hover{
-        border: solid #FDD000;
+        border: solid 1px #FDD000;
 }
 
 .box-icon{
@@ -115,58 +109,15 @@ footer{
 
 /* ==== Responsive ====  */
 
-/* Dispositivo Móvel P */
-@media (max-width: 321px){
-   
-    .section-presentation{
-        width: 260px; height: 346px;
-    }
-
-    .section-presentation img{
-        width: 120px; height: 120px;
-    }
-
-    .text p{
-        font-size: 9pt;
-    }
-    
-    .section-buttons {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .button{
-        width: 260px; height: 60px;
-    }
-
-    .box-icon{
-        width: 50px; height: 50px;
-    }
-    
-    .icon{
-        width: 32px; height: 32px;
-    }
-
-    .box-text p{
-        display: none;
-    }
-
-    .divisao{
-        width: 0px;
-    }
-}
-
 /* Dispositivo Móvel M */
-@media (max-width: 376px) and (orientation: landscape){
+@media (max-width: 376px){
    
     .section-presentation{
         width: 344px; height: 346px;
     }
 
-    .section-presentation img{
-        width: 120px; height: 120px;
+    .text h5{
+        font-size: 16pt;
     }
 
     .text p{
@@ -198,14 +149,14 @@ footer{
 }
 
 /* Dispositivo Móvel G */
-@media (max-width: 426px) and (orientation: landscape){
+@media (max-width: 426px){
    
     .section-presentation{
         width: 344px; height: 346px;
     }
 
-    .section-presentation img{
-        width: 120px; height: 120px;
+    .text h5{
+        font-size: 16pt;
     }
 
     .text p{
@@ -243,8 +194,8 @@ footer{
         width: 344px; height: 346px;
     }
 
-    .section-presentation img{
-        width: 120px; height: 120px;
+    .text h5{
+        font-size: 16pt;
     }
 
     .text p{
